@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Quicksand:wght@600&family=Roboto&display=swap');@keyframes myAnim {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-100px);
+	}
+}
+html {
+    scroll-behavior:smooth;
+}
+body {
+    background-color:#121319;
+    font-family:'Poppins',sans-serif;
+    color:white;
+    font-size:160%;
+}
+.title {
+    font-size:7rem;
+    font-family:'Poppins',sans-serif;
+    color:#5865f2;
+}
+.title > span {
+    animation: myAnim 0.3s ease 0s 1 normal forwards;
+    color:white;
+}
+img {
+    border-radius:100%;
+}
+h2 {
+    color:#343640;
+}
+button {
+    font-family:'Quicksand', sans-serif;
+    animation: myAnim 1s ease 0s 0.2 normal forwards;
+    background-color:rgb(33, 33, 33);
+    color:white;
+    padding-right:40px;
+    padding-left:40px;
+    font-size:1.7rem;
+    padding-top:25px;
+    padding-bottom:25px;
+    border-radius:40px;
+    border:none;
+    transition:ease all 0.2s;
+}
+button:hover {
+    color:white;
+    background-color:rgb(47, 47, 47);
+}
+::-webkit-scrollbar-button {
+    background-color:transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius:100px;
+}
+::-webkit-scrollbar-track {
+    background-color:transparent;
+}
+::-webkit-scrollbar-track-piece {
+    background-color:transparent;
+}
+::-webkit-scrollbar-corner {
+    background-color:transparent;
+}
+::-webkit-scrollbar {
+    background-color:transparent;
+}
+.custom-shape-divider-top-1698118996 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+.beta-mark {
+    float:right;
+    background-color:#5865f2;
+    color:white;
+    border-radius:15px;
+    padding:20px;
+    font-family:monospace;
+    font-weight:600;
+    text-transform:uppercase;
+    transition:ease all 0.5s;
+    margin-top:5px;
+}
+.beta-mark:hover {
+    margin-top:0px;
+    float:right;
+    background-color:#5865f2;
+    color:white;
+    border-radius:15px;
+    padding:20px;
+    font-family:monospace;
+    font-weight:600;
+    text-transform:uppercase;
+    transition:ease all 0.5s;
+    cursor:context-menu;
+}
