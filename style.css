@@ -18,7 +18,7 @@ body {
     font-size:160%;
 }
 .title {
-    font-size:7rem;
+    font-size:5.5rem;
     font-family:'Poppins',sans-serif;
     color:#5865f2;
 }
@@ -81,24 +81,12 @@ button:hover {
     float:right;
     background-color:#5865f2;
     color:white;
-    border-radius:15px;
-    padding:20px;
+    border-radius:5px;
+    padding:5px;
     font-family:monospace;
     font-weight:600;
     text-transform:uppercase;
     transition:ease all 0.5s;
     margin-top:5px;
-}
-.beta-mark:hover {
-    margin-top:0px;
-    float:right;
-    background-color:#5865f2;
-    color:white;
-    border-radius:15px;
-    padding:20px;
-    font-family:monospace;
-    font-weight:600;
-    text-transform:uppercase;
-    transition:ease all 0.5s;
     cursor:context-menu;
 }
